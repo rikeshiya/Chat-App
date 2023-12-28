@@ -4,10 +4,10 @@ function RightChatBubble({ message, name, image }) {
   return (
     <>
       <div className="message-bubble mbr">
-        <img src={image} style={styles.avatar} alt="sender-pic" />{" "}
+        
         <div className="right-bubble ">
           <div className="text-message">
-            <p className="name">{name}</p>
+            <p className="name">Riya J</p>
             <p className="message">{message.text}</p>
             <span className="message-timestamp">{message.timestamp}</span>
           </div>
